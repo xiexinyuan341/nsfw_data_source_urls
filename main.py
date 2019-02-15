@@ -1,3 +1,4 @@
+from image_downloader.crawler import Crawler
 from image_downloader.task_generator import TaskGenerator
 from logger_setter import setup_log
 
@@ -8,3 +9,4 @@ if __name__ == '__main__':
     # TODO  multi_threading process
     # each Crawler use one thread.
     pass
+    # Crawler(task).run()
