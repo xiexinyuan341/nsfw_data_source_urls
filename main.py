@@ -9,4 +9,4 @@ if __name__ == '__main__':
     # TODO  multi_threading process
     # each Crawler use one thread.
     pass
-    # Crawler(task).run()
+    # Crawler(urls_generator,download_folder).run()

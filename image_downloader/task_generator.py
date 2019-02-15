@@ -7,6 +7,9 @@ class TaskGenerator(object) :
         with open(self.urls_file) as f:
             pass
 
-    def get_image_urls(self):
+
+
+    def generate_task(self):
         # TODO
-        pass
+
+        yield urls_generator,download_folder

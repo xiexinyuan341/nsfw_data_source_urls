@@ -8,8 +8,9 @@ import requests
 
 
 class Crawler(object):
-    def __init__(self, urls_iterator):
+    def __init__(self, urls_iterator,download_folder):
         self.urls = urls_iterator
+        self.destination_path = Path(download_folder)
         self.delay_time = 1
 
     def download_image(self, url):
