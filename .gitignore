@@ -114,3 +114,6 @@ venv.bak/
 *.bmp
 *.gif
 *.png
+
+# log
+*log
